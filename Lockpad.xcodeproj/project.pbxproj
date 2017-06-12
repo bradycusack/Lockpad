@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA186B641EEF30D4006F933E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA186B631EEF30D4006F933E /* AppDelegate.swift */; };
+		DA186B661EEF30D4006F933E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA186B651EEF30D4006F933E /* ViewController.swift */; };
+		DA186B691EEF30D4006F933E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA186B671EEF30D4006F933E /* Main.storyboard */; };
+		DA186B6B1EEF30D4006F933E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA186B6A1EEF30D4006F933E /* Assets.xcassets */; };
+		DA186B6E1EEF30D4006F933E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA186B6C1EEF30D4006F933E /* LaunchScreen.storyboard */; };
+		DA186B791EEF30D5006F933E /* LockpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA186B781EEF30D5006F933E /* LockpadTests.swift */; };
+		DA186B841EEF30D5006F933E /* LockpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA186B831EEF30D5006F933E /* LockpadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA186B751EEF30D5006F933E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA186B581EEF30D4006F933E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA186B5F1EEF30D4006F933E;
+			remoteInfo = Lockpad;
+		};
+		DA186B801EEF30D5006F933E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA186B581EEF30D4006F933E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA186B5F1EEF30D4006F933E;
+			remoteInfo = Lockpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA186B601EEF30D4006F933E /* Lockpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lockpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA186B631EEF30D4006F933E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA186B651EEF30D4006F933E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA186B681EEF30D4006F933E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA186B6A1EEF30D4006F933E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA186B6D1EEF30D4006F933E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA186B6F1EEF30D4006F933E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA186B741EEF30D5006F933E /* LockpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA186B781EEF30D5006F933E /* LockpadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockpadTests.swift; sourceTree = "<group>"; };
+		DA186B7A1EEF30D5006F933E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA186B7F1EEF30D5006F933E /* LockpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA186B831EEF30D5006F933E /* LockpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockpadUITests.swift; sourceTree = "<group>"; };
+		DA186B851EEF30D5006F933E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA186B5D1EEF30D4006F933E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA186B711EEF30D5006F933E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA186B7C1EEF30D5006F933E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA186B571EEF30D4006F933E = {
+			isa = PBXGroup;
+			children = (
+				DA186B621EEF30D4006F933E /* Lockpad */,
+				DA186B771EEF30D5006F933E /* LockpadTests */,
+				DA186B821EEF30D5006F933E /* LockpadUITests */,
+				DA186B611EEF30D4006F933E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA186B611EEF30D4006F933E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA186B601EEF30D4006F933E /* Lockpad.app */,
+				DA186B741EEF30D5006F933E /* LockpadTests.xctest */,
+				DA186B7F1EEF30D5006F933E /* LockpadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA186B621EEF30D4006F933E /* Lockpad */ = {
+			isa = PBXGroup;
+			children = (
+				DA186B631EEF30D4006F933E /* AppDelegate.swift */,
+				DA186B651EEF30D4006F933E /* ViewController.swift */,
+				DA186B671EEF30D4006F933E /* Main.storyboard */,
+				DA186B6A1EEF30D4006F933E /* Assets.xcassets */,
+				DA186B6C1EEF30D4006F933E /* LaunchScreen.storyboard */,
+				DA186B6F1EEF30D4006F933E /* Info.plist */,
+			);
+			path = Lockpad;
+			sourceTree = "<group>";
+		};
+		DA186B771EEF30D5006F933E /* LockpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA186B781EEF30D5006F933E /* LockpadTests.swift */,
+				DA186B7A1EEF30D5006F933E /* Info.plist */,
+			);
+			path = LockpadTests;
+			sourceTree = "<group>";
+		};
+		DA186B821EEF30D5006F933E /* LockpadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA186B831EEF30D5006F933E /* LockpadUITests.swift */,
+				DA186B851EEF30D5006F933E /* Info.plist */,
+			);
+			path = LockpadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA186B5F1EEF30D4006F933E /* Lockpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA186B881EEF30D5006F933E /* Build configuration list for PBXNativeTarget "Lockpad" */;
+			buildPhases = (
+				DA186B5C1EEF30D4006F933E /* Sources */,
+				DA186B5D1EEF30D4006F933E /* Frameworks */,
+				DA186B5E1EEF30D4006F933E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lockpad;
+			productName = Lockpad;
+			productReference = DA186B601EEF30D4006F933E /* Lockpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA186B731EEF30D5006F933E /* LockpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA186B8B1EEF30D5006F933E /* Build configuration list for PBXNativeTarget "LockpadTests" */;
+			buildPhases = (
+				DA186B701EEF30D5006F933E /* Sources */,
+				DA186B711EEF30D5006F933E /* Frameworks */,
+				DA186B721EEF30D5006F933E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA186B761EEF30D5006F933E /* PBXTargetDependency */,
+			);
+			name = LockpadTests;
+			productName = LockpadTests;
+			productReference = DA186B741EEF30D5006F933E /* LockpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA186B7E1EEF30D5006F933E /* LockpadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA186B8E1EEF30D5006F933E /* Build configuration list for PBXNativeTarget "LockpadUITests" */;
+			buildPhases = (
+				DA186B7B1EEF30D5006F933E /* Sources */,
+				DA186B7C1EEF30D5006F933E /* Frameworks */,
+				DA186B7D1EEF30D5006F933E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA186B811EEF30D5006F933E /* PBXTargetDependency */,
+			);
+			name = LockpadUITests;
+			productName = LockpadUITests;
+			productReference = DA186B7F1EEF30D5006F933E /* LockpadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA186B581EEF30D4006F933E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Brady Cusack";
+				TargetAttributes = {
+					DA186B5F1EEF30D4006F933E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DA186B731EEF30D5006F933E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA186B5F1EEF30D4006F933E;
+					};
+					DA186B7E1EEF30D5006F933E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA186B5F1EEF30D4006F933E;
+					};
+				};
+			};
+			buildConfigurationList = DA186B5B1EEF30D4006F933E /* Build configuration list for PBXProject "Lockpad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA186B571EEF30D4006F933E;
+			productRefGroup = DA186B611EEF30D4006F933E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA186B5F1EEF30D4006F933E /* Lockpad */,
+				DA186B731EEF30D5006F933E /* LockpadTests */,
+				DA186B7E1EEF30D5006F933E /* LockpadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA186B5E1EEF30D4006F933E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA186B6E1EEF30D4006F933E /* LaunchScreen.storyboard in Resources */,
+				DA186B6B1EEF30D4006F933E /* Assets.xcassets in Resources */,
+				DA186B691EEF30D4006F933E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA186B721EEF30D5006F933E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA186B7D1EEF30D5006F933E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA186B5C1EEF30D4006F933E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA186B661EEF30D4006F933E /* ViewController.swift in Sources */,
+				DA186B641EEF30D4006F933E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA186B701EEF30D5006F933E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA186B791EEF30D5006F933E /* LockpadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA186B7B1EEF30D5006F933E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA186B841EEF30D5006F933E /* LockpadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA186B761EEF30D5006F933E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA186B5F1EEF30D4006F933E /* Lockpad */;
+			targetProxy = DA186B751EEF30D5006F933E /* PBXContainerItemProxy */;
+		};
+		DA186B811EEF30D5006F933E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA186B5F1EEF30D4006F933E /* Lockpad */;
+			targetProxy = DA186B801EEF30D5006F933E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA186B671EEF30D4006F933E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA186B681EEF30D4006F933E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA186B6C1EEF30D4006F933E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA186B6D1EEF30D4006F933E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA186B861EEF30D5006F933E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA186B871EEF30D5006F933E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA186B891EEF30D5006F933E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lockpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearcodex.cusack.brady.Lockpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DA186B8A1EEF30D5006F933E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lockpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearcodex.cusack.brady.Lockpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DA186B8C1EEF30D5006F933E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LockpadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearcodex.cusack.brady.LockpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lockpad.app/Lockpad";
+			};
+			name = Debug;
+		};
+		DA186B8D1EEF30D5006F933E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LockpadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearcodex.cusack.brady.LockpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lockpad.app/Lockpad";
+			};
+			name = Release;
+		};
+		DA186B8F1EEF30D5006F933E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LockpadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearcodex.cusack.brady.LockpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lockpad;
+			};
+			name = Debug;
+		};
+		DA186B901EEF30D5006F933E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LockpadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearcodex.cusack.brady.LockpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lockpad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA186B5B1EEF30D4006F933E /* Build configuration list for PBXProject "Lockpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA186B861EEF30D5006F933E /* Debug */,
+				DA186B871EEF30D5006F933E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA186B881EEF30D5006F933E /* Build configuration list for PBXNativeTarget "Lockpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA186B891EEF30D5006F933E /* Debug */,
+				DA186B8A1EEF30D5006F933E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA186B8B1EEF30D5006F933E /* Build configuration list for PBXNativeTarget "LockpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA186B8C1EEF30D5006F933E /* Debug */,
+				DA186B8D1EEF30D5006F933E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA186B8E1EEF30D5006F933E /* Build configuration list for PBXNativeTarget "LockpadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA186B8F1EEF30D5006F933E /* Debug */,
+				DA186B901EEF30D5006F933E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA186B581EEF30D4006F933E /* Project object */;
+}
