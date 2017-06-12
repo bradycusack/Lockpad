@@ -14,6 +14,8 @@
 		DA186B6E1EEF30D4006F933E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA186B6C1EEF30D4006F933E /* LaunchScreen.storyboard */; };
 		DA186B791EEF30D5006F933E /* LockpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA186B781EEF30D5006F933E /* LockpadTests.swift */; };
 		DA186B841EEF30D5006F933E /* LockpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA186B831EEF30D5006F933E /* LockpadUITests.swift */; };
+		DA186B921EEF360A006F933E /* key-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = DA186B911EEF360A006F933E /* key-xxl.png */; };
+		DA186B961EEF3A59006F933E /* PadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA186B951EEF3A59006F933E /* PadTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DA186B7F1EEF30D5006F933E /* LockpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA186B831EEF30D5006F933E /* LockpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockpadUITests.swift; sourceTree = "<group>"; };
 		DA186B851EEF30D5006F933E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA186B911EEF360A006F933E /* key-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-xxl.png"; sourceTree = "<group>"; };
+		DA186B951EEF3A59006F933E /* PadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PadTableViewController.swift; path = ../PadTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,12 @@
 		DA186B621EEF30D4006F933E /* Lockpad */ = {
 			isa = PBXGroup;
 			children = (
+				DA186B951EEF3A59006F933E /* PadTableViewController.swift */,
 				DA186B631EEF30D4006F933E /* AppDelegate.swift */,
 				DA186B651EEF30D4006F933E /* ViewController.swift */,
 				DA186B671EEF30D4006F933E /* Main.storyboard */,
 				DA186B6A1EEF30D4006F933E /* Assets.xcassets */,
+				DA186B911EEF360A006F933E /* key-xxl.png */,
 				DA186B6C1EEF30D4006F933E /* LaunchScreen.storyboard */,
 				DA186B6F1EEF30D4006F933E /* Info.plist */,
 			);
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA186B921EEF360A006F933E /* key-xxl.png in Resources */,
 				DA186B6E1EEF30D4006F933E /* LaunchScreen.storyboard in Resources */,
 				DA186B6B1EEF30D4006F933E /* Assets.xcassets in Resources */,
 				DA186B691EEF30D4006F933E /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 			files = (
 				DA186B661EEF30D4006F933E /* ViewController.swift in Sources */,
 				DA186B641EEF30D4006F933E /* AppDelegate.swift in Sources */,
+				DA186B961EEF3A59006F933E /* PadTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				DA186B8A1EEF30D5006F933E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA186B8B1EEF30D5006F933E /* Build configuration list for PBXNativeTarget "LockpadTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				DA186B8D1EEF30D5006F933E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA186B8E1EEF30D5006F933E /* Build configuration list for PBXNativeTarget "LockpadUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				DA186B901EEF30D5006F933E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
